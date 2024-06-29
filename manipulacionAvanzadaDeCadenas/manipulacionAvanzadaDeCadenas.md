@@ -7,3 +7,6 @@ En C, la manipulación de cadenas es fundamental y la biblioteca `string.h` prop
 - [`strtok` - Tokenización de Cadenas en C](./strtok/strtok.md)
 - [`strstr` - Búsqueda de Subcadenas en C](./strstr/strstr.md)
 - [`strspn` y `strcspn` - Longitud de Segmentos Iniciales](./strspnStrcspn/strspnStrcspn.md)
+- [`strrev` - Inversión de Cadenas (No estándar)](./strrev/strrev.md)
+- [`strncpy` - Copiar Cadenas con Límite](./strncpy/strncpy.md)
+- [`strncat` - Concatenar Cadenas con Límite](./strncat/strncat.md)
