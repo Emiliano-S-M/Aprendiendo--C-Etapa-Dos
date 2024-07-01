@@ -11,9 +11,9 @@ Mientras que la primera etapa te proporcionó las bases sólidas del lenguaje C,
 ### Los temas que exploraremos en esta segunda etapa son:
 
 - [**Manipulación avanzada de cadenas**](./manipulacionAvanzadaDeCadenas/manipulacionAvanzadaDeCadenas.md): Funciones avanzadas de `string.h`.
-- **Memoria dinámica**: Uso de `malloc`, `calloc`, `realloc`, y `free`.
-- **Listas enlazadas**: Implementación y uso de listas enlazadas simples y dobles.
-- **Pilas (Stacks)**: Implementación y operaciones.
+- [**Memoria dinámica**](./memoriaDinámica/memoriaDinámica.md): Uso de `malloc`, `calloc`, `realloc`, y `free`.
+- [**Listas enlazadas**](./listasEnlazadas/listasEnlazadas.md): Implementación y uso de listas enlazadas simples y dobles.
+- [**Pilas (Stacks)**](./pilasStacks/pilas.md): Implementación y operaciones.
 - **Colas (Queues)**: Implementación y operaciones.
 - **Árboles binarios**: Conceptos, implementación, y operaciones.
 - **Árboles binarios de búsqueda (BST)**: Conceptos, implementación, y operaciones.

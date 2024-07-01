@@ -26,5 +26,6 @@ int main() {
     printf("Original: %s\n", str);
     printf("Invertida: %s\n", strrev(str));
     
+    getchar();
     return 0;
 }

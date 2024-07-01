@@ -15,5 +15,6 @@ int main() {
         token = strtok(NULL, delim);
     }
 
+    getchar();
     return 0;
 }

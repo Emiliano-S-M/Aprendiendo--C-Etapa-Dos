@@ -11,6 +11,6 @@ int main() {
 
     // Muestra el resultado
     printf("Destino: %s\n", dest);
-
+    getchar();
     return 0;
 }

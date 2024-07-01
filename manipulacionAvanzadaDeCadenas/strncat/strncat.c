@@ -11,5 +11,6 @@ int main() {
     // Muestra el resultado
     printf("Resultado: %s\n", dest);
 
+    getchar();
     return 0;
 }

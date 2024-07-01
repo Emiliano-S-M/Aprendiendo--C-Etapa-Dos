@@ -11,6 +11,7 @@ int main() {
 
     // Muestra el resultado
     printf("La longitud del segmento inicial es: %zu\n", len);
-
+    
+    getchar();
     return 0;
 }
