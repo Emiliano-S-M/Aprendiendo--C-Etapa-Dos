@@ -14,7 +14,7 @@ Mientras que la primera etapa te proporcionó las bases sólidas del lenguaje C,
 - [**Memoria dinámica**](./memoriaDinámica/memoriaDinámica.md): Uso de `malloc`, `calloc`, `realloc`, y `free`.
 - [**Listas enlazadas**](./listasEnlazadas/listasEnlazadas.md): Implementación y uso de listas enlazadas simples y dobles.
 - [**Pilas (Stacks)**](./pilasStacks/pilas.md): Implementación y operaciones.
-- **Colas (Queues)**: Implementación y operaciones.
+- [**Colas (Queues)**](./colasQueues/queues.md): Implementación y operaciones.
 - **Árboles binarios**: Conceptos, implementación, y operaciones.
 - **Árboles binarios de búsqueda (BST)**: Conceptos, implementación, y operaciones.
 - **Árboles AVL y árboles balanceados**: Conceptos y aplicaciones.
