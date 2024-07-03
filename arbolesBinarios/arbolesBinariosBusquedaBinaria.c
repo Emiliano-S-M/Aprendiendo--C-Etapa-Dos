@@ -63,6 +63,29 @@ void postOrder(struct TreeNode* root) {
     }
 }
 
+// Función para buscar un nodo en el árbol y contar los pasos
+int search(struct TreeNode* root, int key, int* steps) {
+    if (root == NULL) {
+        printf("Nodo no encontrado\n");
+        return 0;
+    }
+    
+    *steps += 1;
+    
+    if (root->data == key) {
+        printf("Nodo encontrado: %d\n", root->data);
+        return 1;
+    }
+    
+    printf("Nodo actual: %d\n", root->data);
+    
+    if (key < root->data) {
+        return search(root->left, key, steps);
+    } else {
+        return search(root->right, key, steps);
+    }
+}
+
 void main() {
     struct TreeNode* root = NULL;
     root = insert(root, 10);
@@ -89,6 +112,28 @@ void main() {
     printf("Recorrido en Postorden: ");
     postOrder(root);
     printf("\n");
+
+    printf("\n\n");
+
+    int steps = 0;
+    int key = 14;
+    printf("Buscando el nodo con el valor %d\n", key);
+    if (search(root, key, &steps)) {
+        printf("Cantidad de pasos para encontrar el nodo: %d\n", steps);
+    } else {
+        printf("Nodo con el valor %d no encontrado\n", key);
+    }
+
+    printf("\n\n");
+
+    steps = 0;
+    key = 21;
+    printf("Buscando el nodo con el valor %d\n", key);
+    if (search(root, key, &steps)) {
+        printf("Cantidad de pasos para encontrar el nodo: %d\n", steps);
+    } else {
+        printf("Nodo con el valor %d no encontrado\n", key);
+    }
 
     getchar();
 }

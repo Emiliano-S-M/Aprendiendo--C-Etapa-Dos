@@ -15,9 +15,7 @@ Mientras que la primera etapa te proporcionó las bases sólidas del lenguaje C,
 - [**Listas enlazadas**](./listasEnlazadas/listasEnlazadas.md): Implementación y uso de listas enlazadas simples y dobles.
 - [**Pilas (Stacks)**](./pilasStacks/pilas.md): Implementación y operaciones.
 - [**Colas (Queues)**](./colasQueues/queues.md): Implementación y operaciones.
-- **Árboles binarios**: Conceptos, implementación, y operaciones.
-- **Árboles binarios de búsqueda (BST)**: Conceptos, implementación, y operaciones.
-- **Árboles AVL y árboles balanceados**: Conceptos y aplicaciones.
+- [**Árboles binarios, Árboles binarios de búsqueda (BST), Árboles AVL y árboles balanceados**](./arbolesBinarios/arbolesBinariosBusquedaBinaria.c): Conceptos, implementación, y operaciones.
 - **Grafos**: Representación, recorridos (BFS, DFS), y aplicaciones.
 - **Hashing y tablas hash**: Conceptos y aplicaciones.
 - **Algoritmos de ordenación**: Bubble sort, quicksort, mergesort, heapsort, etc.
